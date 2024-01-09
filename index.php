@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Technical</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="carouselExampleDark" class="carousel carousel-white slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/pexels-heather-bozman-1058759.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/pexels-michał-ludwiczak-1239162.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>New York</h3>
+                <p>We love the City!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./images/pexels-rachel-xiao-772429 (1).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<section>
+    <div class="container my-5">
+        <div class="container-1 py-5">
+            <h1 class="text-center">About Us</h1>
+        </div>
+        <div class="container-2">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 text-center">
+                    <img src="./images/lake-1679708_1280.jpg" class="img-fluid" width="620" height="200">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="text-center">
+                        <h1>I am Tourist Technical</h1>
+                        <br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quia vel neque accusantium
+                            ratione
+                            nobis! Fugit non doloremque nihil, expedita exercitationem nam ipsam quaerat inventore
+                            explicabo!</p>
+                        <a href="about.php" class="btn btn-success">Check More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div class="container my-5">
+        <div class="container-1 py-5">
+            <h1 class="text-center">Our Services</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <div class="card">
+                        <img src="./images/real-estate-4955089_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful Place</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <div class="card">
+                        <img src="./images/real-estate-4955089_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful Place</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <div class="card">
+                        <img src="./images/real-estate-4955089_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beautiful Place</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+</section>
+
+<section>
+    <div class="container my-5">
+        <div class="container-1 py-5">
+            <h1 class="text-center">Gallery</h1>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/shiraito-waterfall-autumn-japan.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/sea-164989_1280.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/lake-1679708_1280.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/spring-bird-2295434_1280.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/fox-1758183_1280.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/girl-1822525_1280.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/pexels-amal-abdulla-1587699.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12">
+                        <div class="card mb-3">
+                            <img src="./images/moorea-7603918_1280.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container my-5">
+        <div class="container-2 py-5">
+            <h1 class="text-center">Contact Us</h1>
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <form action="index.html" method="post" class="px-3">
+                    <div class="form-group">
+                        <label for="username" class="text-black fs-lg">Username</label>
+                        <input type="text" name="username" autocomplete="off" id="username" class="form-control fs-lg" style="color: black;">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="text-black fs-lg">Email ID</label>
+                        <input type="text" name="email" autocomplete="off" id="email" class="form-control fs-lg" style="color: black;">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile" class="text-black fs-lg">Mobile</label>
+                        <input type="text" name="mobile" autocomplete="off" id="mobile" class="form-control fs-lg" style="color: black;">
+                    </div>
+                    <div class="form-group">
+                        <label for="comments" class="text-black fs-lg">Comments</label>
+                        <textarea class="form-control" id="comments" name="comments"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="text-center">
+                <input class="btn btn-success" type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p class="P-5 bg-dark text-white text-center ">@Technicaltourist</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>
